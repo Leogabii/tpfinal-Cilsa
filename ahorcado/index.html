@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego del Ahorcado</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="titulo">Juego del Ahorcado - Animales</h1>
+        
+        <button class="boton" onclick="startGame()">Comenzar Juego</button>
+
+        <div id="word-display" class="word-display"></div>
+
+        <div id="input-container" class="input-container hidden">
+            <label for="letter-input">Ingresa una letra:</label>
+            <input type="text" id="letter-input" maxlength="1" autocomplete="off">
+            <button class="boton" onclick="checkLetter()">Adivinar</button>
+        </div>
+
+        <div id="nocorrectas" class="feedback incorrectas hidden"></div>
+        <div id="chances" class="feedback chances hidden"></div>
+        <div id="message" class="feedback mensaje hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

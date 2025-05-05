@@ -1,0 +1,11 @@
+{
+    "palabra": [
+        "perro", "gato", "elefante", "jirafa", "leon", "tigre", "caballo", "vaca",
+        "oveja", "cerdo", "gallina", "pato", "pavo", "pez", "tortuga", "rana",
+        "serpiente", "cocodrilo", "hipopotamo", "rinoceronte", "cebra", "zorro",
+        "lobo", "oso", "mono", "gorila", "chimpance", "canguro", "koala", "panda",
+        "murcielago", "aguila", "halcon", "buitre", "lechuza", "buho", "pingüino",
+        "delfin", "ballena", "tiburon", "calamar", "pulpo", "medusa", "estrella",
+        "camello", "dromedario", "llama", "alpaca", "pantera"
+    ]
+}

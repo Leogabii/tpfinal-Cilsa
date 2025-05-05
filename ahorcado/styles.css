@@ -1,0 +1,91 @@
+/* Estilo base */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #74ebd5, #acb6e5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+/* Título */
+.titulo {
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Palabra oculta */
+.word-display {
+    font-size: 32px;
+    letter-spacing: 8px;
+    margin: 20px 0;
+}
+
+/* Botones */
+.boton {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #2980b9;
+}
+
+/* Inputs */
+.input-container {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 8px;
+    width: 60px;
+    text-align: center;
+    font-size: 16px;
+    margin: 0 10px;
+}
+
+/* Feedback: letras incorrectas, chances y mensaje */
+.feedback {
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.incorrectas {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.chances {
+    background-color: #f39c12;
+    color: white;
+}
+
+.mensaje {
+    background-color: #27ae60;
+    color: white;
+}
+
+/* Clase utilitaria para ocultar elementos */
+.hidden {
+    display: none;
+}
